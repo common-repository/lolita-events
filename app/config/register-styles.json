@@ -1,0 +1,14 @@
+[
+	{
+		"handle": "events-settings",
+		"src": ["\\events\\Assets", "events_settings_css"],
+		"ver": ["\\events\\Assets", "version"],
+		"context": ["admin", "wp"]
+	},
+	{
+		"handle": "events-settings-vendor",
+		"src": ["\\events\\Assets", "events_settings_vendors_css"],
+		"ver": ["\\events\\Assets", "version"],
+		"context": ["admin", "wp"]
+	}
+]

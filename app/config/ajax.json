@@ -1,0 +1,18 @@
+[
+	{
+		"action": "lf-events-save-settings",
+		"cb": ["\\events\\Settings", "save_settings"]
+	},
+	{
+		"action": "nopriv_lf-events-save-settings",
+		"cb": ["\\events\\Settings", "save_settings"]
+	},
+	{
+		"action": "nopriv_lf-events-get",
+		"cb": ["\\events\\Events", "get"]
+	},
+	{
+		"action": "lf-events-get",
+		"cb": ["\\events\\Events", "get"]
+	}
+]

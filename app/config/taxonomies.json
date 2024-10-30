@@ -1,0 +1,13 @@
+[
+	{
+		"post_type_slug": "event",
+		"plural": "Categories",
+		"singular": "Category"
+	},
+	{
+		"post_type_slug": "event",
+		"plural": "Tags",
+		"singular": "Tag",
+		"hierarchical": false
+	}
+]

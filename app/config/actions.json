@@ -1,0 +1,7 @@
+[
+	{
+		"tag": "save_post",
+		"function_to_add": ["\\events\\Metaboxes", "save_post"],
+		"accepted_args": 2
+	}
+]

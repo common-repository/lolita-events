@@ -1,0 +1,8 @@
+[
+	{
+		"plural": "Events",
+		"singular": "Event",
+		"menu_icon": "dashicons-calendar-alt",
+		"supports": ["title", "editor", "author", "thumbnail"]
+	}
+]

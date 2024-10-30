@@ -1,0 +1,35 @@
+[
+	{
+		"handle": "wp-util"
+	},
+	{
+		"handle": "lf-base",
+		"src": ["\\events\\Assets", "base_js"],
+		"ver": ["\\events\\Assets", "version"],
+		"in_footer": true,
+		"context": ["admin", "wp"]
+	},
+	{
+		"handle": "lf-events-block",
+		"src": ["\\events\\Assets", "register_block_js"],
+		"ver": ["\\events\\Assets", "version"],
+		"deps": ["wp-blocks", "wp-element"],
+		"in_footer": true,
+		"context": ["admin"]
+	},
+	{
+		"handle": "events-settings-vendor",
+		"src": ["\\events\\Assets", "events_settings_vendors_js"],
+		"ver": ["\\events\\Assets", "version"],
+		"deps": ["wp-util"],
+		"in_footer": true,
+		"context": ["admin", "wp"]
+	},
+	{
+		"handle": "events-settings",
+		"src": ["\\events\\Assets", "events_settings_js"],
+		"ver": ["\\events\\Assets", "version"],
+		"in_footer": true,
+		"context": ["admin", "wp"]
+	}
+]
